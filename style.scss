@@ -1,0 +1,25 @@
+@import "compass/css3";
+
+body {
+  background: #5f6a7d;
+  font-family: sans-serif;
+}
+.outer-label {
+  font-size: 12px;
+  fill: #ccc;
+  text-align: center;
+}
+.center {
+  font-size: 18px;
+  text-transform: uppercase;
+  fill: #fff;
+}
+
+path {
+  cursor: pointer;
+}
+
+@-webkit-keyframes scale-up {
+    from { @include transform(scale(0.95)); opacity: 0; }
+    to { @include transform(scale(1)); opacity: 1; }
+}
